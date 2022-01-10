@@ -19,8 +19,9 @@
             Kategori Produk
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="nav-link" href="{{ URL::to('terbaru') }}">Terbaru</a>
-            <a class="nav-link" href="{{ URL::to('promo') }}">Promo</a>
+            <a class="nav-link" href="{{ URL::to('makanan') }}">Makanan Hewan</a>
+            <a class="nav-link" href="{{ URL::to('aksesoris') }}">Aksesoris Hewan</a>
+            <a class="nav-link" href="{{ URL::to('vitamin') }}">Vitamin dan Obat Hewan</a>
           </div>
         </li>
                 <li class="nav-item">
