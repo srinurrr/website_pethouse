@@ -16,4 +16,8 @@ use Illuminate\Contracts\Container\CircularDependencyException;
 */
 
 Route::get('/', '\App\Http\Controllers\HomepageController@index');
+Route::get('/about', '\App\Http\Controllers\HomepageController@about');
+Route::get('/kontak', '\App\Http\Controllers\HomepageController@kontak');
+Route::get('/promo', '\App\Http\Controllers\HomepageController@promo');
+Route::get('/terbaru', '\App\Http\Controllers\HomepageController@terbaru');
 
